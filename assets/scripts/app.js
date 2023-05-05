@@ -40,7 +40,6 @@ const cancelMovieDeletionModal = () => {
 }
 
 const deleteMovieHandler = movieId => {
-    const deleteMovieModal = document.getElementById('delete-modal')
     deleteMovieModal.classList.add('visible')
     toggleBackdrop()
     // deleteMovie(movieId)
